@@ -18,10 +18,6 @@ lst = a.split()
 
 print lst
 
-lst.sort()
-
-print lst
-
 print len(lst)
 
 print lst[1]
