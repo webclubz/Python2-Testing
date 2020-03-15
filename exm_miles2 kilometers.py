@@ -16,6 +16,7 @@ exit = False
 while not exit:
   inpM = input("EISAGOGI SE MILIA: ") 
   if inpM == 0:
+    print "BYE!!!"
     exit = True
   else :
     km = con(inpM)
