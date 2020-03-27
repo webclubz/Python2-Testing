@@ -13,8 +13,8 @@ By Economou Athanasios
 line()
 
 colors = ['',"Red","Blue","Yellow","brown"]
-colorsAdd = ' | The color is:'.join(colors)
-print(colorsAdd)
+colorsAdd = '  The color is: '.join(colors)
+print colorsAdd
 
 line()
 
