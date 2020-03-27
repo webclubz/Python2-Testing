@@ -5,8 +5,7 @@ def line():
     print "===================================="
 
 '''
-Python 2 String Find Index
-version 2.7.17
+Python 2 String Find
 By Economou Athanasios
 '''
 line()
@@ -14,7 +13,7 @@ line()
 c = "Ελληνικά Δρώμενα"
 
 d = c.find("Δ")
-print d # 9
+print d # index -> 9
 
 if "Δρώ" in c:
     print "Υπάρχει το Δρώ"
