@@ -3,7 +3,7 @@
 """
 Created on Sat Mar  7 20:39:51 2020
 @author: Economou Ath
-Project Title: LAB TESTING
+Project Title: check if raw_input is int() or str
 """
 ex = False
 
