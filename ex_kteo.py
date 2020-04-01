@@ -38,7 +38,7 @@ while not exit:
         exit = True
 
     if vType == "e":
-        isMember = raw_input("EINAI MELOS? Y: ")
+        isMember = raw_input("EINAI MELOS? (Y)  ")
         if isMember == "y":
             pmCar= 40
             print "EINAI MELOS \nTIMH :", pmCar
@@ -51,7 +51,7 @@ while not exit:
             cars = countCar * int(pCar)
 
     if vType == "f":
-        isMember = raw_input("EINAI MELOS? Y: ")
+        isMember = raw_input("EINAI MELOS? (Y)  ")
         if isMember == "y":
             pmTruck= 70
             print "EINAI MELOS \nTIMH :", pmTruck
@@ -64,7 +64,7 @@ while not exit:
             trucks = countTruck * pTruck
 
     elif vType == "m":
-        isMember = raw_input("EINAI MELOS? Y: ")
+        isMember = raw_input("EINAI MELOS (Y) ")
         if isMember == "y":
             pmMoto= 25
             print "EINAI MELOS \nTIMH :", pmMoto
