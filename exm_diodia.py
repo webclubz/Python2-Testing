@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 
 def lines():
-    print
     print "--------------------------"
-    print
+
 
 lines()
 # TIMES
