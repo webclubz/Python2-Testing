@@ -15,13 +15,13 @@ while not exit:
         exit = True
     else:
         vathPro = input("PROFORIKOS VATHMOS: ")
-        # while για όσες φορές δωθεί λάθος βαθμός
+        # while για όσες φορές δoθεί λάθος βαθμός
         while vathPro not in range(0, 21):
             print "LATHOS BATHMOS"
             vathPro = input("PROFORIKOS VATHMOS: ")
 
         vathGra = input("GRAPTOS VATHMOS: ")
-        # while για όσες φορές δωθεί λάθος βαθμός
+        # while για όσες φορές δoθεί λάθος βαθμός
         while vathGra not in range(0, 21):
             print "LATHOS VATHMOS: "
             vathGra = input("GRAPTOS VATHMOS: ")
