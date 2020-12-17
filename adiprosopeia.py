@@ -23,14 +23,13 @@ print "================================"
 
 
 def disc(price):
-    if (price < 0):
-        disc =  "LATHOS TIMH"
-    elif (price <= 10000):
+
+    if (price <= 10000):
         disc = price * 0.04
     elif (price <= 14000):
-        disc = price * 0.07
+        disc = 10000 * 0.04 + (price - 10000) * 0.07
     else:
-        disc = price * 0.10
+        disc = 10000 * 0.04 + 4000 * 0.07 (price - 14000) * 0.10
     
     return disc
 
