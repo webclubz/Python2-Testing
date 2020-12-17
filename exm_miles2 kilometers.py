@@ -4,8 +4,6 @@ Created on Sat Mar  7 20:13:03 2020
 @author: Economou Ath
 Project Title:
 """
-def line():
-  print("==========================================")
 
 def con(miles):
   km = 1.6 * miles
